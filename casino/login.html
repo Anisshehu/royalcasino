@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Alb Casino Premium</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
+<header class="navbar">
+    <div class="logo">ALB CASINO PREMIUM</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="withdraw.html">Withdraw</a>
+    </nav>
+    <div>
+        <a href="login.html">Login</a>
+        <a href="register.html" class="register-btn">Register</a>
+    </div>
+</header>
+
+<h1>🎰 Slot Machine</h1>
+<div id="balance">Balance: €1000</div>
+<div id="slot">🎰</div>
+<button onclick="spin()">Spin (€50)</button>
+
+<hr>
+
+<h2>♠ Blackjack</h2>
+<div id="dealer"></div>
+<div id="player"></div>
+<div id="bjResult"></div>
+<button onclick="startBlackjack()">Start (€100)</button>
+<button onclick="hit()">Hit</button>
+<button onclick="stand()">Stand</button>
+
+<hr>
+
+<h2>⚽ Live Soccer Betting</h2>
+<div>Team A vs Team B</div>
+<div id="odds">Odds: 1.8</div>
+<button onclick="placeBet()">Bet €100</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
